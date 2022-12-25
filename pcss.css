@@ -1,0 +1,379 @@
+/*scroolbar color*/
+:root{
+    --green: rgb(117, 236, 66);
+}
+*::selection{
+    background: var(--green);
+    color: rgb(235, 51, 51);
+}
+
+html::-webkit-scrollbar{
+    width: 2.0rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: gray;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--green);
+}
+/*scroolbar color Ends here*/
+
+
+body {
+    background-color: black;
+
+}
+
+
+/*starts menu here*/
+header {
+    background-color: gray;
+    height: 730px;
+    width: 25%;
+    left: 0;
+    position: fixed;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: block;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    font-size: 30px;
+    color: rgb(117, 236, 66);
+    ;
+    text-decoration: underline rgb(7, 197, 42);
+}
+
+
+
+header ul img {
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    border: 10px solid rgb(7, 197, 42);
+}
+
+/*ends menu here*/
+
+
+/* starts-here right side*/
+section {
+    color: white;
+}
+
+#main-section {
+    color: white;
+    float: right;
+    width: 74%;
+}
+
+/* ENDS-here right side*/
+
+
+/* INTRO right side*/
+
+#intro {
+    height: 700px;
+}
+
+#intro p {
+    float: auto;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 20px;
+}
+
+#quick-intro {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#heello {
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 50px;
+
+}
+
+#youhello {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#monil {
+    font-size: 35px;
+    color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#resume {
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+
+}
+#resume:hover{
+    background-color: rgb(57, 211, 134);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* INTRo ends side*/
+
+/*Education qualitfication Starts here*/
+
+#education-qualtifaction {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-top: 70px;
+    padding-left: 10px;
+
+}
+#bips{
+    text-decoration: underline;
+   color:  rgb(57, 211, 134);
+}
+#ldrp{
+    text-decoration: underline;
+    color:  rgb(57, 211, 134);
+}
+/*Education qualitfication ENDS here*/
+
+/*Exprience Starts here*/
+#Exprience {
+   padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.ex{
+    text-decoration: underline;
+    color:  rgb(57, 211, 134);
+}
+#campus{
+    background-color: rgb(79, 112, 158);
+    border-radius: 8px;
+}
+#canteen{
+    background-color: rgb(79, 112, 158);
+    border-radius: 8px;
+}
+#restaurant{
+    background-color: rgb(79, 112, 158);
+    border-radius: 8px;
+}
+#inter{
+    background-color:rgb(79, 112, 158);
+    border-radius: 8px;
+}
+#smart{
+    background-color: rgb(79, 112, 158);
+    border-radius: 8px;
+}
+/*Experience ENDS here*/
+
+
+
+/*skill-set Starts here*/
+#skill-set { 
+    
+    font-size: 20px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    height: 800px;
+}
+#skill-set ul{
+    list-style-type: circle;
+    
+}
+#html{
+    height: 200px;
+    width: 32%;
+    float: left;
+    margin-top: 10px;
+}
+#htmlph{
+    width: 100px;
+    height: 100px;
+}
+#css{
+    height: 200px;
+    width: 33%;
+    float: right;
+    margin-top: 10px;
+}
+#cssph{
+    width: 100px;
+    height: 100px;
+}
+#js{
+    height: 200px;
+    width: 33%;
+    float: right;
+    margin-top: 10px;
+}
+#jsph{
+    width: 100px;
+    height: 100px;
+}
+#c{
+    height: 200px;
+    width: 32%;
+    float: left;
+    padding-right: 20px;
+    
+}
+#cph{
+    width: 175px;
+    height: 175px;
+}
+#ci{
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin-top: 30px;
+    
+}
+#ciph{
+    width: 100px;
+    height: 100px;
+}
+#java{
+    height: 200px;
+    width: 33%;
+    float: right;
+    margin-top: 40px;
+}
+#jph{
+    width: 225px;
+    height: 125px;
+    margin-left: -50px;
+}
+#sql{
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin-top: 40px;
+}
+#sqlph{
+    width: 150px;
+    height: 100px;
+}
+#py{
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+}
+#pyph{
+    width: 100px;
+    height: 100px;
+}
+table,td,th{
+    border: 4px solid rgb(7, 7, 7);
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 10px;
+}
+.lo{
+    text-decoration: underline;
+}
+table{
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(108, 131, 71);
+    color: black;
+    border-radius: 20px;
+    
+}
+/*skill set ENDS here*/
+
+/*more about me starts here*/
+#more-about-us {
+    border: 4px solid rgb(57, 211, 134);
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: rgb(108, 131, 71);
+    color: black;
+    border-radius: 50px;
+    
+}
+/*more about me ends here*/
+
+/*concat us starts here*/
+#Connact-us {
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    
+    height: 500px;
+}
+
+#Connectwithsoical {
+   
+    float: left;
+    width: 40%;
+    height: 85%;
+    padding: 20px;
+    margin-top: 10px;
+}
+.cs{
+    background-color: rgb(128, 144, 80);
+    margin: 10px;
+    border: rgb(135, 58, 58) 3px solid;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cs :hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.lp{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#fb{
+    width: 80px;
+    height: 50px;
+    margin-left: -10px;
+}
+#Form {
+    border: 2px solid rgb(204, 80, 80);
+    float: right;
+    width: 45%;
+    height: 92%;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(64, 128, 84);
+    margin-top: 30px;
+}
+#msg{
+    font-size: 30px;
+    text-decoration: underline;
+    color: greenyellow;
+}
+.b{
+    margin: 10px;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+}
+/* conact us ends here*/
